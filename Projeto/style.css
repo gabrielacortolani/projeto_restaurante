@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root {
-    --cor-primaria: #416D49;
-    --cor-secundaria: #f83200;
-    --cor-secundaria-clara: #FDFDFD;
-    --cor-fundo-clara: #FDFDFD;
-    --cor-fundo-escura: #AAABBB;
-    --cor-texto-claro: #FFFFFF;
+    --cor-primaria: #1A301D;
+    --cor-secundaria: #FF0000;
+    --cor-secundaria-clara: #bdc2be; /* cor do fundo das imagens do meio*/
+    --cor-fundo-clara: #1A301D; /* cor do fundo total*/
+    --cor-fundo-escura: #1A301D;/* cor da lateral ifood*/
+    --cor-texto-claro: #FFFFFF; /*cor dos textos em destaque*/
     --cor-texto-escura: #6B6A6A;
 }
 
@@ -40,8 +40,9 @@
     }
 
     #logo {
-        display:auto;
-        width: 350px;
+        display: block;
+        align-items: center;
+        width: 75%;
     }
     
     #social {
@@ -401,4 +402,7 @@
     .destaque > h1> a {
         font-size: 2rem;
     }
+    }
+    .container img{
+        max-width: 200px;
     }
