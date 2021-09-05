@@ -177,6 +177,7 @@
     main > h1, aside > h1 {
     text-transform: uppercase;
     color: var(--cor-secundaria);
+
     }
     
     article > h1 { 
