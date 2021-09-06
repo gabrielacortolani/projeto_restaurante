@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root {
-    --cor-primaria: #1A301D;
+    --cor-primaria: #132D17;
     --cor-secundaria: #FF0000;
     --cor-secundaria-clara: #bdc2be; /* cor do fundo das imagens do meio*/
-    --cor-fundo-clara: #1A301D; /* cor do fundo total*/
-    --cor-fundo-escura: #1A301D;/* cor da lateral ifood*/
+    --cor-fundo-clara: #132D17; /* cor do fundo total*/
+    --cor-fundo-escura: #132D17;/* cor da lateral ifood*/
     --cor-texto-claro: #FFFFFF; /*cor dos textos em destaque*/
     --cor-texto-escura: #6B6A6A;
 }
@@ -36,22 +36,28 @@
     background-color: var(--cor-primaria);
     padding: 0 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     }
 
     #logo {
-        display: block;
-        align-items: center;
-        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #logo_peq{
+            display: block;
+            align-items: center;
+            width: 75%;
     }
     
     #social {
     background-color: transparent; 
-    align-items: center;
+    align-items: flex-end;
     }
     
     #social img {
-    width: 32px;
+    width: 16px;
     }
     
     #social a {
@@ -413,4 +419,19 @@
     }
     .container img{
         max-width: 200px;
+    }
+
+    #content_reserva{
+        background-color: var(--cor-fundo-clara);
+        padding: 20px;
+        display: flex;
+        flex-direction: row; 
+        height: 550px;
+    }
+    #content_contato{
+        background-color: var(--cor-fundo-clara);
+        padding: 20px;
+        display: flex;
+        flex-direction: row; 
+        height: 700px;
     }
