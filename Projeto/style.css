@@ -17,19 +17,10 @@
     font-size: 16px;
     box-sizing: border-box;
     }
-
-    html {
-    font-size: 16px;
-    }
     
     a {
     color: var(--cor-primaria);
     text-decoration: none;
-    }
-    
-    a:hover { 
-    color: var(--cor-secundaria);
-    text-decoration: underline; 
     }
     
     header {
@@ -37,12 +28,6 @@
     padding: 0 0px;
     display: flex;
     justify-content: center;
-    }
-
-    #logo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     #logo_peq{
@@ -59,23 +44,7 @@
     #social img {
     width: 16px;
     }
-    
-    #social a {
-    color: #FFFFFF;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    }
-    
-    #social a span {
-    margin-left: 6px;
-    display: none; 
-    }
-    
-    #social a:hover span {
-    display: inline; 
-    }
-    
+
     nav ul li {
     display: inline-block; 
     margin: 10px;
@@ -84,10 +53,6 @@
     nav {
     background-color: var(--cor-secundaria); 
     color: var(--cor-texto-claro); 
-    }
-    
-    #menu {
-    padding: 0 20px;
     }
     
     #menu li {
@@ -100,11 +65,6 @@
     color: #FFFFFF;
     transition: 300ms;
     background-color: var(--cor-secundaria);
-    }
-    
-    #menu a:hover {
-    filter: brightness(0.8); 
-    text-decoration: none;
     }
     
     #menu-contraido {
@@ -138,17 +98,6 @@
     display: none;
     }
 
-    #div_logo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    
-    #menu-contraido input:checked ~ span {
-    background-image: url('img/close-icon-48x48.png');
-    }
-    
     #content {
     background-color: var(--cor-fundo-clara);
     padding: 20px;
@@ -170,20 +119,8 @@
     width: 75%;
     }
     
-    aside {
-    margin-left: 20px;
-    background-color: var(--cor-fundo-escura);
-    width: 25%;
-    }
-    
     main article, aside article { 
     margin: 24px 0;
-    }
-    
-    main > h1, aside > h1 {
-    text-transform: uppercase;
-    color: var(--cor-secundaria);
-
     }
     
     article > h1 { 
@@ -202,13 +139,7 @@
     font-size: 0.8rem;
     text-transform: uppercase;
     }
-    
-    .destaque {
-    background-color: var(--cor-secundaria-clara);
-    padding: 24px;
-    border-radius: 4px; 
-    }
-    
+ 
     .destaque p {
     color: #000000;
     font-size: 1.5rem;
